@@ -28,7 +28,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Número secreto da Tulipinha');
+    exibirTextoNaTela('h1', 'Jogo do número secreto');
     let mensagemEscolha = `Escolha um número entre 1 e ${numMax}.`;
     exibirTextoNaTela('p', mensagemEscolha);
 }
